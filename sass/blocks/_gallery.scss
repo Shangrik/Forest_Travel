@@ -1,0 +1,47 @@
+.gallery {
+    position: relative;
+    &__header {
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    &__arrow-btn {
+        padding: 0;
+        position: absolute;
+        border: none;
+        background-color: transparent;
+
+        &--left {
+            left: -120px;
+            top: 50%;
+        }
+        &--right {
+            right: -120px;
+            top: 50%;
+        }
+        .arrow-svg {
+            circle {
+                fill: #fff;
+                transition: 0.2s fill ease-in;
+            }
+            path {
+                stroke: #00c470;
+                transition: 0.2s stroke ease-in;
+            }
+        }
+
+        &:hover,
+        &:focus {
+            outline: none;
+            .arrow-svg {
+                circle {
+                    fill: #00c470;
+                }
+                path {
+                    stroke: #fff;
+                }
+            }
+        }
+    }
+}

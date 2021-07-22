@@ -1,0 +1,30 @@
+#userName-error,
+#userPhone-error,
+#userEmail-error,
+#userToursize-error {
+    position: absolute;
+}
+
+#userName-error,
+#userPhone-error {
+    top: -20px;
+    left: 10%;
+}
+
+#userEmail-error {
+    top: -20px;
+    left: 54%;
+}
+
+#userToursize-error {
+    top: 23px;
+    left: 36%;
+}
+
+input.error {
+    border: 1px solid red;
+    margin-right: 10px;
+    &:last-child {
+        margin-right: 0;
+    }
+}

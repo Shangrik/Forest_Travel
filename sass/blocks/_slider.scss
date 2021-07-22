@@ -1,0 +1,10 @@
+.slider {
+    &__item {
+        background-color: rgb(199, 181, 181);
+        figcaption {
+            color: #fff;
+            text-align: center;
+            font-size: 24px;
+        }
+    }
+}

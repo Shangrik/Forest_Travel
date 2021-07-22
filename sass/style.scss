@@ -1,0 +1,28 @@
+// base
+@import "./base/base";
+
+// blocks
+@import "./blocks/button";
+@import "./blocks/intro";
+@import "./blocks/main-page";
+@import "./blocks/tours";
+@import "./blocks/trecking";
+@import "./blocks/form";
+@import "./blocks/contacts";
+@import "./blocks/free-tours";
+@import "./blocks/altai";
+@import "./blocks/about";
+@import "./blocks/gallery";
+@import "./blocks/slider";
+
+// owl carousel
+@import "./owl-carousel/theme.green";
+@import "./owl-carousel/theme";
+
+// media
+@import "./media/main-media";
+@import "./media/tours-media";
+@import "./media/trecking-media";
+@import "./media/contacts-media";
+@import "./media/altai-media";
+@import "./media/about-media";

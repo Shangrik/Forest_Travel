@@ -1,0 +1,253 @@
+/* media quaries  trecking*/
+/* tablet max-width 1199px */
+@media (max-width: 1199px) {
+    .container {
+        width: 900px;
+    }
+
+    /* header section */
+    .trecking-top {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    // .header-nav {
+    //     display: none;
+    // }
+
+    .header-nav-button {
+        display: block;
+        border: none;
+        background-color: transparent;
+    }
+
+    /* main section */
+
+    .inner-page {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+
+    .altai-article-col {
+        width: 570px;
+    }
+
+    .altai-nav-link {
+        font-size: 18px;
+    }
+
+    .altai-article-col h1 {
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+
+    .altai-article-col p {
+        font-size: 18px;
+    }
+
+    .free-tours-list li {
+        font-size: 18px;
+    }
+
+    .img_wrapper {
+        margin-bottom: 30px;
+    }
+    /* footer section */
+    .footer {
+        padding: 50px 0;
+        min-height: 296px;
+    }
+
+    .footer-services {
+        display: none;
+    }
+
+    .footer-name {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .footer-title {
+        margin-bottom: 20px;
+    }
+
+    .footer-copyright p {
+        font-size: 14px;
+    }
+
+    .footer-widgets {
+        flex-shrink: 0;
+        width: 495px;
+    }
+
+    .footer-copyright {
+        width: 195px;
+    }
+
+    .footer-info {
+        width: 195px;
+    }
+
+    .footer-nav-item:not(:last-child) {
+        margin-bottom: 15px;
+    }
+}
+
+/* mobile max-width 899px */
+@media (max-width: 899px) {
+    .container {
+        width: 600px;
+    }
+
+    /* main section */
+    .inner-page {
+        padding-top: 20px;
+    }
+
+    .altai-page-row {
+        flex-direction: column-reverse;
+    }
+
+    .altai-article-col h1 {
+        font-size: 42px;
+    }
+
+    .altai-article-col p {
+        font-size: 16px;
+    }
+
+    .free-tours-list li {
+        font-size: 16px;
+    }
+
+    .img_wrapper {
+        margin-bottom: 20px;
+    }
+
+    .altai-nav-col {
+        width: 100%;
+    }
+    /* footer section */
+    .footer {
+        padding: 40px 0;
+        min-height: 420px;
+    }
+
+    .footer-row {
+        flex-direction: column-reverse;
+    }
+
+    .footer-widgets {
+        justify-content: space-between;
+        margin-bottom: 50px;
+        width: auto;
+    }
+
+    .footer-widgets > * {
+        width: calc(50% - 15px);
+    }
+    .footer-copyright {
+        width: auto;
+    }
+
+    .footer-name {
+        margin-bottom: 20px;
+    }
+
+    .footer-info {
+        margin-right: 0;
+    }
+}
+
+/* mobile XS max-width 599px */
+@media (max-width: 599px) {
+    .container {
+        width: 320px;
+    }
+
+    /* main section */
+    .inner-page {
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+
+    .altai-article-col {
+        width: 100%;
+    }
+
+    .altai-article-col h1 {
+        font-size: 28px;
+    }
+    .altai-article-col p {
+        font-size: 16px;
+    }
+
+    .free-tours-list li {
+        font-size: 16px;
+    }
+
+    .img_wrapper img {
+        height: 120px;
+    }
+    /* footer section */
+    .footer {
+        min-height: 795px;
+    }
+
+    .footer-copyright {
+        text-align: center;
+    }
+
+    .footer-copyright p {
+        line-height: 1.4;
+    }
+
+    .footer-name {
+        margin-bottom: 10px;
+    }
+
+    .footer-widgets {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .footer-services {
+        display: block;
+        width: auto;
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+
+    .footer-contacts {
+        width: auto;
+    }
+
+    .footer-info {
+        margin-bottom: 40px;
+    }
+
+    .footer-contacts-content {
+        align-items: center;
+    }
+
+    .footer-title {
+        font-size: 20px;
+        line-height: normal;
+        margin-bottom: 10px;
+    }
+
+    .footer-nav-link {
+        font-size: 16px;
+        line-height: 1;
+    }
+
+    .footer-widgets > * {
+        width: 100%;
+    }
+
+    .footer-nav-item:not(:last-child) {
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,125 @@
+.tours {
+    display: flex;
+    align-items: center;
+    min-height: 100px;
+    background-image: url("../img/tours_and_dir/header.jpg");
+    background-position: center;
+    background-size: cover;
+    background-color: #265847;
+}
+
+.tours-nav-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tours-nav-list-item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.tours-nav-link {
+    font-size: 22px;
+    color: #ffffff;
+    position: relative;
+}
+
+.tours-nav-link:hover,
+.tours-nav-link:focus {
+    opacity: 0.7;
+    color: #faecec;
+}
+.tours-nav-link::after {
+    content: "";
+    display: block;
+    width: 0%;
+    height: 3px;
+    background-color: burlywood;
+    transition: 0.3s all ease-in;
+}
+
+.tours-nav-link:focus {
+    outline: none;
+}
+
+.tours-nav-link:hover::after,
+.tours-nav-link:focus::after {
+    width: 100%;
+}
+/* // header */
+
+/* main section */
+
+.tours-main-header {
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.error404 {
+    text-decoration: underline;
+    color: rgb(206, 93, 93);
+}
+
+.tours-first-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.tours-second-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tours-second-row-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.tours-second-row-column-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.tours-second-row-column > * + * {
+    margin-top: 30px;
+}
+
+figcaption {
+    height: 80px;
+    padding: 22px 0 22px 30px;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 1.29;
+    color: #ffffff;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.tours-pic1-cap {
+    background-color: #a6a6a6;
+}
+.tours-pic2-cap {
+    background-color: #c1b19b;
+}
+.tours-pic3-cap {
+    background-color: #66b0be;
+}
+.tours-pic4-cap {
+    background-color: #876f56;
+}
+.tours-pic5-cap {
+    background-color: #27695e;
+}
+.tours-first-row > *,
+.tours-second-row-column > *,
+.tours-second-row-column-right > * {
+    transition: all 0.3s ease-in;
+}
+
+.tours-first-row > *:hover,
+.tours-second-row-column > *:hover,
+.tours-second-row-column-right > *:hover {
+    transform: translateY(-2%);
+    opacity: 0.7;
+}

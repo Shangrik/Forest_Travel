@@ -1,0 +1,33 @@
+.ui-main {
+    padding: 50px 0;
+}
+.ui-header {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.ui-subheader {
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 50px;
+}
+ul.ui-list {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+ul.ui-list li {
+    margin-bottom: 15px;
+}
+
+ul.ui-list li a {
+    color: #4848f7;
+}
+
+ul.ui-list li a:hover,
+ul.ui-list li a:focus {
+    opacity: 0.7;
+    text-decoration: underline;
+}
